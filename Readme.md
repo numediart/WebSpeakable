@@ -1,15 +1,25 @@
 # WebSpeakable
 
 ## Wait... What is it?
-WebSpeakable is a Tampermonkey script that speaks the selected text on web pages using installed Microsoft voice on Windows, or Google voices on Chrome web browser.  To use it, first select any text on the page (except inside an iframe) and press 'p' key.
+WebSpeakable is a Tampermonkey script for Chrome or Firefox that speaks the selected text on web pages using OS installed voices, or Google voices on Chrome web browser.  To use it, first select any text on the page (except inside an iframe) and press 'p' key.
 It is also possible to declare some part of the HTML code, including inside iframe, to be "speakable" when there is mouse interaction (click or mouse hover).
 
-## Installation
+## Running the demo
+- Install [Tampermonkey](https://www.tampermonkey.net/) add-on on [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) or [Firefox](https://addons.mozilla.org/fr/firefox/addon/tampermonkey/)
+- Demo script can be installed by clicking [here](https://github.com/numediart/WebSpeakable/blob/master/WebSpeakable_demo.js). It is set to speak with the first voice identified on your computer.
+- Go to the [french Wikipedia Speech Synthesis web page](https://fr.wikipedia.org/wiki/Synth%C3%A8se_vocale) which is the targer for this script
+- You should see an alert box telling you that the script is running (if not, see Troubleshooting section below), click OK
+- When your mouse cursor becomes a headset ![headset](icons/speakable-on-click.ico), click to speak the text underneath
+- On links, the cursor becomes a hand with headset ![hand with headset](icons/speakable-on-hover.ico). Just hover for half a second and the text will be spoken
 
-## Customize to your web page
+## Customize to fit your web page
+
+
+## Troubleshooting
 
 ## TODO List
 - [ ] Access HTML elements by id
+- [ ] Links inside a paragraph are not excluded from the speakables
 
 
 ## License
