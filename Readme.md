@@ -6,7 +6,7 @@ It is also possible to declare some part of the HTML code, including inside ifra
 
 ## Running the demo
 - Install [Tampermonkey](https://www.tampermonkey.net/) add-on on [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) or [Firefox](https://addons.mozilla.org/fr/firefox/addon/tampermonkey/)
-- Demo script can be installed by clicking [here](https://github.com/numediart/WebSpeakable/blob/master/WebSpeakable_demo.js). It is set to speak with the first voice identified on your computer.
+- Demo script can be installed by clicking [here](https://raw.githubusercontent.com/numediart/WebSpeakable/master/WebSpeakable_demo.js). It is set to speak with the first voice identified on your computer.
 - Go to the [french Wikipedia Speech Synthesis web page](https://fr.wikipedia.org/wiki/Synth%C3%A8se_vocale) which is the targer for this script
 - You should see an alert box telling you that the script is running (if not, see Troubleshooting section below), click OK
 - When your mouse cursor becomes a headset ![headset](icons/speakable-on-click.ico), click to speak the text underneath
