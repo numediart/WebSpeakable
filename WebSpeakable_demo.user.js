@@ -1,13 +1,28 @@
 // ==UserScript==
 // @name           WebSpeakable
-// @namespace      tts
+// @namespace      https://github.com/numediart/WebSpeakable
 // @description    Speaks the selected text in installed Microsoft voice. To use it, first select any text on the page (except inside an iframe) and press 'p' key.
 //                 It will automatically get the text and speak it. Please wait for a white until the complete speech is loaded in the background. For longer texts it may take a while.
 //                 It is also possible to declare some part of the HTML code (including inside iframe) to be "speakable" by giving the classname hierachy of this text.
 // @author         Fabien Grisard - Click - UMONS
+// @license        http://www.apache.org/licenses/LICENSE-2.0
+// @copyright      Copyright (c) 2019, UMONS
 // @version	   	   0.1
 // @include        https://fr.wikipedia.org/wiki/Synth%C3%A8se_vocale
+// @updateURL      https://raw.githubusercontent.com/numediart/WebSpeakable/master/WebSpeakable_demo.user.js
+// @downloadURL    https://raw.githubusercontent.com/numediart/WebSpeakable/master/WebSpeakable_demo.user.js
 // ==/UserScript==
+
+// Copyright (c) 2019, UMONS
+// WebSpeakable is licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You should have received a copy of the Apache License Version 2.0 along with this program.
+// If not, see http://www.apache.org/licenses/LICENSE-2.0
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+
 
 var voiceIndex = 0;
 ////////// On Chrome web browser - Windows 10 /////////////
